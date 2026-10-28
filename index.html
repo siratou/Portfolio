@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#080808" />
+    <meta name="description" content="Portfolio de Sirakatou Coly — ingénieur géomaticien orienté télédétection, GeoAI et développement de solutions géospatiales." />
+    <meta property="og:title" content="Sirakatou Coly — Geospatial Engineer" />
+    <meta property="og:description" content="Transformer les données géospatiales en décisions lisibles, utiles et actionnables." />
+    <meta property="og:type" content="website" />
+    <title>Sirakatou Coly — Geospatial Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/styles.css" />
+    <script type="module" src="/script.js" defer></script>
+  </head>
+  <body>
+    <div class="site-shell">
+      <div class="ambient ambient-one" aria-hidden="true"></div>
+      <div class="ambient ambient-two" aria-hidden="true"></div>
+      <div class="geo-grid" aria-hidden="true"></div>
+
+      <header class="site-header" data-header>
+        <a class="brand" href="#accueil" aria-label="Retour à l'accueil">
+          <span class="brand-mark"><span>SC</span></span>
+          <span class="brand-copy">
+            <strong>SIRAKATOU COLY</strong>
+            <small>GEOSPATIAL ENGINEER</small>
+          </span>
+        </a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" data-menu-toggle>
+          <span>Menu</span><i aria-hidden="true"></i>
+        </button>
+        <nav class="main-nav" id="main-nav" aria-label="Navigation principale" data-nav>
+          <a class="nav-link active" href="#accueil">Accueil</a>
+          <a class="nav-link" href="#a-propos">À propos</a>
+          <a class="nav-link" href="#competences">Compétences</a>
+          <a class="nav-link" href="#projets">Projets</a>
+          <a class="nav-link" href="#experiences">Expériences</a>
+          <a class="nav-link" href="#certifications">Certifications</a>
+          <a class="nav-link" href="#contact">Contact</a>
+          <a class="nav-cv" href="/assets/SirakatouCOLY.pdf" download aria-label="Télécharger le CV de Sirakatou">
+            <span>CV</span> Télécharger mon CV
+          </a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero section-pad" id="accueil">
+          <div class="hero-copy reveal">
+            <div class="eyebrow"><span class="pulse-dot"></span> GÉOMATIQUE · TÉLÉDÉTECTION · GEOAI</div>
+            <p class="hero-index">01 <span>/</span> PROFILE SIGNAL</p>
+            <h1>Sirakatou<br /><em>Coly.</em></h1>
+            <div class="typing-line" aria-live="polite">
+              <span class="typing-label">Je suis</span>
+              <span class="typing-text" data-typing>Ingénieur Géomaticien</span><span class="typing-cursor" aria-hidden="true"></span>
+            </div>
+            <p class="hero-intro">J’explore le potentiel des données géospatiales, de la télédétection et de l’intelligence artificielle pour concevoir des solutions claires face aux problématiques du territoire.</p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#projets">Explorer mes projets <span aria-hidden="true">↗</span></a>
+              <a class="button button-ghost" href="#contact">Me contacter <span aria-hidden="true">→</span></a>
+            </div>
+            <p class="hero-footnote">Transforming geospatial data into actionable insights · AI & GeoAI</p>
+          </div>
+
+          <div class="hero-visual reveal reveal-delay" aria-label="Monogramme orbital de Sirakatou Coly">
+            <div class="visual-label visual-label-top"><span>LAT 14.7167° N</span><span>LNG 17.4677° W</span></div>
+            <div class="orbit-stage">
+              <svg class="world-map" viewBox="0 0 1000 520" role="img" aria-label="Carte du monde stylisée et animée">
+                <defs>
+                  <linearGradient id="mapStroke" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#a3ff12" /><stop offset=".55" stop-color="#00d9ff" /><stop offset="1" stop-color="#a3ff12" /></linearGradient>
+                  <filter id="mapGlow"><feGaussianBlur stdDeviation="5" result="blur" /><feMerge><feMergeNode in="blur" /><feMergeNode in="SourceGraphic" /></feMerge></filter>
+                </defs>
+                <g class="map-contours" fill="none" stroke="url(#mapStroke)" stroke-linejoin="round">
+                  <path d="M91 154 119 121 157 106 188 116 204 144 190 164 157 160 137 179 104 174Z" />
+                  <path d="M221 208 254 178 298 172 330 191 351 222 337 244 305 245 286 271 268 318 251 361 232 345 238 303 222 272 205 244Z" />
+                  <path d="M389 139 422 119 456 126 470 145 500 151 520 174 505 194 471 187 446 203 416 191 397 170Z" />
+                  <path d="M500 208 533 190 574 195 600 215 633 215 672 243 705 240 737 257 762 278 750 302 711 300 686 321 650 311 622 291 588 300 558 276 526 271 507 244Z" />
+                  <path d="M568 327 597 313 627 322 647 350 638 381 616 406 595 390 583 358Z" />
+                  <path d="M792 352 831 340 864 350 887 373 875 397 842 407 810 393 789 374Z" />
+                </g>
+                <g class="map-graticule" fill="none" stroke="#00d9ff" stroke-width="1">
+                  <ellipse cx="500" cy="260" rx="390" ry="188" /><ellipse cx="500" cy="260" rx="250" ry="188" /><path d="M110 260H890M500 72V448M222 108C375 205 375 315 222 412M778 108C625 205 625 315 778 412" />
+                </g>
+                <g class="map-routes" fill="none" stroke="#a3ff12" stroke-width="2" stroke-dasharray="6 12">
+                  <path d="M175 160 Q365 65 570 215 T842 365" /><path d="M286 285 Q430 185 612 270 T820 260" />
+                </g>
+                <g class="map-points" filter="url(#mapGlow)"><circle cx="175" cy="160" r="5" /><circle cx="286" cy="285" r="4" /><circle cx="570" cy="215" r="5" /><circle cx="612" cy="270" r="4" /><circle cx="842" cy="365" r="4" /></g>
+                <path class="map-scan" d="M146 92V428" />
+              </svg>
+              <div class="orbit orbit-back"></div>
+              <div class="orbit orbit-main"><span class="orbit-node node-one"></span><span class="orbit-node node-two"></span></div>
+              <div class="orbit orbit-front"></div>
+              <div class="orbit-core"><img class="profile-photo" src="/assets/cv-image-000.png" alt="Portrait de Sirakatou Coly" /><div class="core-glow"></div><span class="core-caption">GEOSPATIAL<br />SIGNAL</span></div>
+              <div class="crosshair crosshair-a"></div>
+              <div class="crosshair crosshair-b"></div>
+            </div>
+            <div class="visual-label visual-label-bottom"><span>DATA / 01</span><span>ACTIVE NODE</span></div>
+          </div>
+          <div class="hero-scroll"><span class="scroll-line"></span><span>SCROLL TO EXPLORE</span></div>
+        </section>
+
+        <section class="section-pad about-section" id="a-propos">
+          <div class="section-heading reveal">
+            <p class="section-kicker">02 — CONTEXTE</p>
+            <h2>Lire le territoire.<br /><span>Comprendre les signaux.</span></h2>
+          </div>
+          <div class="about-layout">
+            <div class="about-text reveal">
+              <p class="lead-text">La géomatique est pour moi un langage qui relie le terrain, la donnée et la décision.</p>
+              <p>Géomaticien orienté télédétection et climatologie appliquée, je travaille à l’intersection des systèmes d’information géographique, de l’observation de la Terre, de la programmation spatiale et du machine learning.</p>
+              <p>Mes expériences en recherche, en cartographie agricole et en modélisation des phénomènes climatiques nourrissent une ambition simple : transformer des données complexes en solutions géospatiales utiles au territoire.</p><p class="ai-note"><span>AI / GEOAI</span> Je cultive une passion particulière pour l’intelligence artificielle, de la vision par ordinateur au machine learning appliqué aux données spatiales.</p>
+            </div>
+            <div class="signal-card education-carousel reveal reveal-delay" aria-label="Parcours académique interactif : survolez la carte pour afficher l’autre formation">
+              <div class="card-topline"><span>EDUCATION TRACE</span><span class="carousel-hint">HOVER →</span></div>
+              <div class="trace-line"><span class="trace-node"></span><span class="trace-node active"></span><span class="trace-node"></span></div>
+              <div class="education-viewport">
+                <div class="education-track">
+                  <article class="education-slide"><div class="education-index">01 / 02</div><div class="trace-meta"><span>PARCOURS ACADÉMIQUE</span><small>EN COURS</small></div><h3>Master 2<br /><em>Géomatique</em></h3><p>Université Sine Saloum Elhadji Ibrahima Niass (USSEIN).</p><strong class="education-year">2026 — en cours</strong></article>
+                  <article class="education-slide"><div class="education-index">02 / 02</div><div class="trace-meta"><span>PARCOURS ACADÉMIQUE</span><small>FORMATION VALIDÉE</small></div><h3>Licence<br /><em>Géomatique & Climatologie</em></h3><p>Université Sine Saloum Elhadji Ibrahima Niass (USSEIN).</p><strong class="education-year">2020 — 2023</strong></article>
+                </div>
+              </div>
+              <div class="carousel-dots"><span class="active"></span><span></span></div>
+              <div class="card-coordinates">14°43′N <span>•</span> 17°28′W</div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section-pad skills-section" id="competences">
+          <div class="section-heading section-heading-row reveal">
+            <div><p class="section-kicker">03 — STACK</p><h2>Mes outils<br /><span>technologiques.</span></h2></div>
+            <p class="heading-note">Les outils que j’utilise pour transformer les données en solutions.</p>
+          </div>
+          <div class="skills-grid">
+            <article class="skill-card reveal"><div class="skill-number">01</div><div class="skill-icon">⌁</div><h3>Géomatique<br />& SIG</h3><p>Cartographier les espaces et structurer l’information géospatiale.</p><div class="tag-list"><span>QGIS</span><span>ArcGIS Pro</span><span>PostgreSQL</span><span>Webmapping</span></div></article>
+            <article class="skill-card reveal reveal-delay"><div class="skill-number">02</div><div class="skill-icon">◌</div><h3>Télédétection<br />& Terre</h3><p>Analyser les signaux optiques et radar issus de l’observation de la Terre.</p><div class="tag-list"><span>Geemap</span><span>Earth Engine</span><span>Sentinel-2</span><span>Landsat</span><span>Drone</span></div></article>
+            <article class="skill-card reveal"><div class="skill-number">03</div><div class="skill-icon">{ }</div><h3>Code<br />& Plateformes</h3><p>Développer des outils accessibles pour explorer et partager la donnée.</p><div class="tag-list"><span>Python</span><span>RStudio</span><span>HTML / CSS / JS</span><span>Streamlit</span><span>GitHub</span></div></article>
+            <article class="skill-card skill-card-accent reveal reveal-delay"><div class="skill-number">04</div><div class="skill-icon">✦</div><h3>ML<br />& climat</h3><p>Mobiliser le machine learning et le deep learning pour les phénomènes spatiaux.</p><div class="tag-list"><span>RandomForest</span><span>KNN</span><span>SVM</span><span>CNN</span><span>Climate Copernicus</span><span>NASA POWER</span></div></article>
+            <article class="skill-card skill-card-drone reveal"><div class="skill-number">05</div><div class="skill-icon">⌖</div><h3>Photogrammétrie<br />& drone</h3><p>Acquérir, traiter et exploiter des données aériennes pour produire des informations 3D et cartographiques.</p><div class="tag-list"><span>DJI Mavic 3 Enterprise</span><span>Mavic 3 Multispectral</span><span>Mavic 3 Thermique</span><span>Phantom</span><span>DJI Mini 2</span></div></article>
+          </div>
+          <p class="section-disclaimer reveal">La liste sera affinée et validée à partir du CV complet.</p>
+        </section>
+
+        <section class="section-pad projects-section" id="projets">
+          <div class="section-heading section-heading-row reveal">
+            <div><p class="section-kicker">04 — CASE FILES</p><h2>Projets<br /><span>sélectionnés.</span></h2></div>
+            <p class="heading-note">Des données géospatiales aux applications concrètes.</p>
+          </div>
+          <div class="project-carousel" data-project-carousel>
+            <div class="project-carousel-top"><span class="carousel-status">AUTO LOOP / 02 SEC</span><div class="project-controls"><button type="button" data-project-prev aria-label="Projet précédent">←</button><span data-project-count>01 / 07</span><button type="button" data-project-next aria-label="Projet suivant">→</button></div></div>
+            <div class="project-viewport">
+              <div class="project-list">
+            <article class="project-card reveal">
+              <div class="project-meta"><span>02 / RISK MAPPING</span><span>INONDATIONS · SÉNÉGAL</span></div>
+              <div class="project-content"><div><h3>MBËNDE <span>MI</span></h3><p>Plateforme de cartographie des inondations et d’analyse des risques à partir de données satellitaires.</p></div><div class="project-tech"><span>SENTINEL-1</span><span>SPATIAL DATA</span><span>RISK ANALYSIS</span></div></div>
+              <div class="project-bottom"><p>Comparer les épisodes, spatialiser les impacts, mieux lire la vulnérabilité.</p><span class="project-arrow">↗</span></div>
+              <div class="project-map map-two" aria-hidden="true"><span></span><span></span><span></span></div>
+            </article>
+            <article class="project-card reveal">
+              <div class="project-meta"><span>03 / RESEARCH</span><span>SAINT-LOUIS · SENTINEL-2</span></div>
+              <div class="project-content"><div><h3>Riz <span>&</span> Sentinel-2</h3><p>Recherche sur la validation des estimations de biomasse, du LAI et de la phénologie à partir d’images et de mesures de terrain.</p></div><div class="project-tech"><span>OBSERVATION</span><span>IN SITU</span><span>VALIDATION STAT.</span></div></div>
+              <div class="project-bottom"><p>Relier l’observation de la Terre aux mesures qui racontent la parcelle.</p><span class="project-arrow">↗</span></div>
+              <div class="project-map map-three" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+            </article>
+            <article class="project-card reveal">
+              <div class="project-meta"><span>04 / CLIMATE</span><span>DAKAR · KAOLACK · SÉNÉGAL</span></div>
+              <div class="project-content"><div><h3>Îlots <span>de</span> chaleur</h3><p>Cartographie des îlots de chaleur urbains dans les régions de Dakar et Kaolack, ainsi que cartographie des anomalies climatiques au Sénégal.</p></div><div class="project-tech"><span>CLIMATOLOGIE</span><span>CARTOGRAPHIE</span><span>ANOMALIES</span></div></div>
+              <div class="project-bottom"><p>Lire les contrastes thermiques et les signaux climatiques du territoire.</p><span class="project-arrow">↗</span></div>
+              <div class="project-map map-two" aria-hidden="true"><span></span><span></span><span></span></div>
+            </article>
+            <article class="project-card project-ai reveal">
+              <div class="project-meta"><span>05 / ARTIFICIAL INTELLIGENCE</span><span>COMPUTER VISION · YOLO</span></div>
+              <div class="project-content"><div><h3>Vehicle <span>Detection</span></h3><p>Développement d’un modèle de détection des véhicules avec YOLO pour l’analyse automatique d’images.</p></div><div class="project-tech"><span>YOLO</span><span>DEEP LEARNING</span><span>COMPUTER VISION</span></div></div>
+              <div class="project-bottom"><p>Mettre l’intelligence artificielle au service de l’observation et de la compréhension des scènes.</p><span class="project-arrow">↗</span></div>
+              <div class="project-map map-one" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+            </article>
+            <article class="project-card project-coast reveal">
+              <div class="project-meta"><span>06 / COASTAL DYNAMICS</span><span>TOUBACOUTA · SÉNÉGAL</span></div>
+              <div class="project-content"><div><h3>Érosion <span>côtière</span></h3><p>Étude des facteurs et de l’impact de l’érosion côtière dans la commune de Toubacouta.</p></div><div class="project-tech"><span>LITTORAL</span><span>IMPACT</span><span>GÉOMATIQUE</span></div></div>
+              <div class="project-bottom"><p>Comprendre la dynamique du littoral pour mieux accompagner les territoires.</p><span class="project-arrow">↗</span></div>
+              <div class="project-map map-three" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+            </article>
+            <article class="project-card project-forecast reveal">
+              <div class="project-meta"><span>07 / CLIMATE FORECAST</span><span>MACHINE LEARNING · CLIMAT</span></div>
+              <div class="project-content"><div><h3>Climate <span>Forecast</span></h3><p>Développement de modèles XGBoost et RandomForest pour la prévision climatique.</p></div><div class="project-tech"><span>XGBOOST</span><span>RANDOMFOREST</span><span>PRÉVISION</span></div></div>
+              <div class="project-bottom"><p>Anticiper les variations climatiques grâce à des modèles d’apprentissage robustes.</p><span class="project-arrow">↗</span></div>
+              <div class="project-map map-two" aria-hidden="true"><span></span><span></span><span></span></div>
+            </article>
+              </div>
+            </div>
+            <div class="project-carousel-bottom"><div class="project-progress"><span data-project-progress></span></div><p>Survolez pour mettre en pause · utilisez les flèches pour naviguer</p></div>
+          </div>
+        </section>
+
+        <section class="section-pad experience-section" id="experiences">
+          <div class="section-heading reveal"><p class="section-kicker">05 — TIMELINE</p><h2>Expériences<br /><span>et jalons.</span></h2></div>
+          <div class="timeline reveal">
+            <article class="timeline-item"><div class="timeline-date">09.2026 — EN COURS</div><div><p class="empty-label">AFRICA RICE · SAINT-LOUIS</p><h3>Stage mémoire</h3><p>Validation des estimations in situ de biomasse, du LAI et de la phénologie du riz à partir des images satellites Sentinel-2.</p></div></article>
+            <article class="timeline-item"><div class="timeline-date">08.2025 — 12.2025</div><div><p class="empty-label">STAGE — GÉOMATICA</p><h3>Deep Learning, drones & cartographie</h3><p>Détection automatique d’objets par Deep Learning et segmentation d’images satellite et drone. Mission de collecte et de cartographie des anacardiers par drone en Guinée-Bissau, à Ziguinchor, Kolda et Sédhiou. Développement de modèles de classification des types de sols avec RandomForest, KNN et SVM.</p><div class="experience-tools"><span>DJI Mavic 3 multispectral</span><span>Caméra thermique</span><span>Phantom</span></div></div></article>
+            <article class="timeline-item"><div class="timeline-date">2025 — 2026</div><div><p class="empty-label">GALSENAI — USSEIN</p><h3>Ambassadeur GalsenAI-USSEIN</h3><p>Coordination des activités du programme GalsenAI à l’USSEIN. Développement de programmes de formation et d’activités autour de l’intelligence artificielle dans le domaine de la géomatique.</p></div></article>
+            <article class="timeline-item"><div class="timeline-date">07.2024 — 03.2026</div><div><p class="empty-label">DOCT’SÉNÉGAL</p><h3>Géomaticien</h3><p>Coordination pour la mise en place d’un cluster géomatique et développement d’un programme de cartographie des anomalies climatiques de température au Sénégal.</p></div></article>
+            <article class="timeline-item"><div class="timeline-date">2023 — 2024</div><div><p class="empty-label">CLUB GÉOMATIQUE — USSEIN</p><h3>Président · membre fondateur</h3><p>Coordination des activités du Club Géomatique de l’USSEIN. Développement d’un programme de formation pour les étudiants en Licence.</p></div></article>
+            <article class="timeline-item"><div class="timeline-date">08.2023 — 11.2023</div><div><p class="empty-label">SAED · DELTA DU FLEUVE SÉNÉGAL</p><h3>Stage en télédétection</h3><p>Cartographie des terres agricoles pendant l’hivernage et détection des superficies mises en valeur et non mises en valeur dans la vallée.</p></div></article>
+          </div>
+        </section>
+
+        <section class="section-pad certifications-section" id="certifications">
+          <div class="section-heading section-heading-row reveal">
+            <div><p class="section-kicker">06 — PROOF OF LEARNING</p><h2>Mes<br /><span>certifications.</span></h2></div>
+            <p class="heading-note">Un espace prêt à accueillir les preuves de ton parcours et de ta montée en compétences.</p>
+          </div>
+          <div class="certifications-grid">
+            <article class="certificate-card certificate-filled reveal"><a class="certificate-image-link" href="/assets/certifications/IA.pdf" target="_blank" rel="noreferrer" aria-label="Ouvrir la certification Concepts fondamentaux de l’IA"><img class="certificate-image" src="/assets/certifications/IA-certification.png" alt="Certification Microsoft Concepts fondamentaux de l’IA obtenue par Sirakatou Coly le 16 novembre 2023" /></a><div class="certificate-meta"><span>CERTIFICATION 01 · MICROSOFT</span><strong>Concepts fondamentaux de l’IA</strong><small>Sirakatou Coly · 16 novembre 2023 · Cliquer pour ouvrir le PDF</small></div></article>
+            <article class="certificate-card certificate-filled reveal reveal-delay"><a class="certificate-image-link" href="/assets/certifications/FondamentauxML.pdf" target="_blank" rel="noreferrer" aria-label="Ouvrir la certification Fondamentaux du Machine Learning"><img class="certificate-image" src="/assets/certifications/FondamentauxML-certification.png" alt="Certification Microsoft Fondamentaux du Machine Learning obtenue par Sirakatou Coly le 16 novembre 2023" /></a><div class="certificate-meta"><span>CERTIFICATION 02 · MICROSOFT</span><strong>Fondamentaux du Machine Learning</strong><small>Sirakatou Coly · 16 novembre 2023 · Cliquer pour ouvrir le PDF</small></div></article>
+            <article class="certificate-card certificate-filled reveal"><a class="certificate-image-link" href="/assets/certifications/GalsenAI.png" target="_blank" rel="noreferrer" aria-label="Ouvrir le certificat de reconnaissance GalsenAI"><img class="certificate-image certificate-image-contain" src="/assets/certifications/GalsenAI.png" alt="Certificat de reconnaissance avec honneur GalsenAI décerné à Sirakatou Coly pour son engagement comme ambassadeur GalsenAI" /></a><div class="certificate-meta"><span>CERTIFICATION 03 · GALSENAI</span><strong>Ambassadeur GalsenAI</strong><small>Certificat de reconnaissance avec honneur · Cliquer pour agrandir</small></div></article>
+            <article class="certificate-card certificate-filled reveal"><a class="certificate-image-link" href="/assets/certifications/Elements-of-AI.webp" target="_blank" rel="noreferrer" aria-label="Ouvrir le certificat Elements of AI"><img class="certificate-image certificate-image-contain" src="/assets/certifications/Elements-of-AI.webp" alt="Certificate of Completion Elements of AI de l’Université d’Helsinki et MinnaLearn obtenu par Sirakatou Coly le 14 avril 2026" /></a><div class="certificate-meta"><span>CERTIFICATION 04 · UNIVERSITY OF HELSINKI</span><strong>Elements of AI</strong><small>MinnaLearn · 14 avril 2026 · Cliquer pour agrandir</small></div></article>
+          </div>
+          <p class="certification-note reveal">Les images des certificats pourront être ajoutées dans les cartes sans modifier la structure du portfolio.</p>
+        </section>
+
+        <section class="section-pad contact-section" id="contact">
+          <div class="contact-grid">
+            <div class="contact-copy reveal"><p class="section-kicker">06 — OPEN CHANNEL</p><h2>Construisons la<br /><span>prochaine carte.</span></h2><p>Une idée, une donnée à explorer, un territoire à mieux comprendre ? Écris-moi et ouvrons la conversation.</p><div class="contact-status"><span class="pulse-dot"></span> Disponible pour échanger</div></div>
+            <div class="contact-links reveal reveal-delay">
+              <a class="contact-link" href="mailto:sirakatou07@gmail.com"><span class="link-label">EMAIL</span><strong>sirakatou07@gmail.com</strong><span class="link-arrow">↗</span></a>
+              <a class="contact-link" href="tel:+221782281998"><span class="link-label">TÉLÉPHONE</span><strong>+221 78 228 19 98</strong><span class="link-arrow">↗</span></a>
+              <a class="contact-link" href="https://github.com/siratou" target="_blank" rel="noreferrer"><span class="link-label">GITHUB</span><strong>github.com/siratou</strong><span class="link-arrow">↗</span></a>
+              <a class="contact-link" href="https://www.linkedin.com/in/sirakatou-coly" target="_blank" rel="noreferrer"><span class="link-label">LINKEDIN</span><strong>sirakatou-coly</strong><span class="link-arrow">↗</span></a>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer"><div class="footer-brand">SC<span>/</span>GEOSPATIAL ENGINEER</div><div>© <span data-year></span> SIRAKATOU COLY</div><div>AI · GEOAI · REMOTE SENSING</div></footer>
+    </div>
+  </body>
+</html>

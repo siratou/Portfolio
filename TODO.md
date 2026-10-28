@@ -1,0 +1,22 @@
+# Portfolio Sirakatou Coly — résultats
+
+- [x] Portfolio monopage moderne, sombre et responsive.
+- [x] Contenu enrichi à partir du CV vérifié : expériences, formations, compétences, langues et intérêts.
+- [x] Vrai portrait extrait du CV intégré dans le module orbital.
+- [x] Bouton de téléchargement relié au fichier PDF réel du CV.
+- [x] Coordonnées professionnelles GitHub, LinkedIn, email et téléphone.
+- [x] Expérience Géomatica enrichie avec la mission de collecte et cartographie des anacardiers par drone en Guinée-Bissau, Ziguinchor, Kolda et Sédhiou.
+- [x] Outils terrain ajoutés : DJI Mavic 3 multispectral, caméra thermique et Phantom.
+- [x] Projet SatellIA retiré de la sélection.
+- [x] Projets climat ajoutés : îlots de chaleur urbains à Dakar et Kaolack, anomalies climatiques au Sénégal.
+- [x] Projet IA ajouté : détection des véhicules avec YOLO.
+- [x] Maîtrise et intérêt pour l’IA / GeoAI mis en avant dans le profil et les projets.
+- [x] Section Certifications créée avec trois emplacements pour images de documents.
+- [x] Certification Microsoft « Concepts fondamentaux de l’IA » ajoutée avec aperçu image et PDF ouvrable.
+- [x] Certification Microsoft « Fondamentaux du Machine Learning » ajoutée avec aperçu image et PDF ouvrable.
+- [x] Certificat de reconnaissance GalsenAI ajouté dans la troisième carte de Certifications.
+- [x] Certification « Elements of AI » de l’Université d’Helsinki / MinnaLearn ajoutée dans la quatrième carte.
+- [x] Section renommée « Mes outils technologiques » avec une carte Photogrammétrie & drone : DJI Mavic 3 Enterprise, Mavic 3 Multispectral, Mavic 3 Thermique, Phantom et DJI Mini 2.
+- [x] Section Projets convertie en carrousel centré avec défilement automatique toutes les 2 secondes, pause au survol et navigation manuelle.
+- [x] Expériences ajoutées : Président / membre fondateur du Club Géomatique USSEIN et Ambassadeur GalsenAI-USSEIN.
+- [x] Projets ajoutés : érosion côtière à Toubacouta et prévision climatique avec XGBoost / RandomForest.
